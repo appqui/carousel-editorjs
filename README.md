@@ -4,7 +4,7 @@
 
 Carousel/Gallery Block for the [Editor.js](https://editorjs.io).
 
-![](./img/prelaod.png)
+![](./img/preload.png)
 
 ## Features
 
@@ -36,13 +36,13 @@ var editor = EditorJS({
   tools: {
     ...
     carousel: {
-                    class: Carousel,
-                    config: {
-                        endpoints: {
-                            byFile: "URL_FETCH",
-                        }
-                    }
-                },
+        class: Carousel,
+        config: {
+            endpoints: {
+                byFile: "URL_FETCH",
+            }
+        }
+    },
   }
 
   ...
