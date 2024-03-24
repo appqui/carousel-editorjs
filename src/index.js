@@ -1,7 +1,6 @@
 // eslint-disable-next-line require-jsdoc
 import Uploader from './uploader';
 import buttonIcon from './svg/button-icon.svg';
-require('./index.css').toString();
 
 // eslint-disable-next-line require-jsdoc
 export default class SimpleCarousel {
