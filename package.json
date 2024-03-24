@@ -13,7 +13,8 @@
   "repository": "https://github.com/editor-js/image",
   "main": "/home/mr9bit/work/lambda-react-redux/src/media/bundle.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --profile",
+    "build-dev": "webpack --mode development --profile",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
@@ -37,13 +38,15 @@
     "eslint-config-codex": "github:codex-team/eslint-config",
     "eslint-loader": "^2.1.1",
     "formidable": "^1.2.1",
+    "mini-css-extract-plugin": "^2.8.1",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.1.0",
     "postcss-nested-ancestors": "^2.0.0",
     "request": "^2.88.0",
     "style-loader": "^0.21.0",
     "svg-inline-loader": "^0.8.0",
-    "webpack": "^4.29.5",
+    "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^3.2.3"
   }
 }
