@@ -1,4 +1,4 @@
-import ajax from '@codexteam/ajax';
+import ajax from './ajax';
 
 /**
  * Module for file uploading. Handle 3 scenarios:
